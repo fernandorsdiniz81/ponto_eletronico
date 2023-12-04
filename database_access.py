@@ -6,7 +6,7 @@ class DataBase: #CRUD
 		self.connection = mysql.connector.connect(
 		host = "localhost",
 		user = "root",
-		password = "Fei@2605",
+		password = "seu password",
 		database = "ponto_eletronico",
   		connection_timeout=60)
 		self.cursor = self.connection.cursor()
